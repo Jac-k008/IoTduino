@@ -4,9 +4,9 @@
 #include <ThingsBoard.h>
 #include <Arduino_MQTT_Client.h>
 
-#define WIFI_AP "Wokwi-GUEST"
+#define WIFI_AP ""
 #define WIFI_PASSWORD ""
-#define TOKEN "5xi7y58hd7gjjw7zfh1b"
+#define TOKEN "" //change it with the authentication token on the thingsboard
 #define TB_SERVER "thingsboard.cloud"
 
 constexpr uint16_t MAX_MESSAGE_SIZE = 128U;
