@@ -2,9 +2,9 @@
 #include <BlynkSimpleEsp8266.h>
 #define BLYNK_PRINT Serial
 
-char auth[] = "mMPjyeISc888b39QvOWyIPXYVL5yNqoP";
-char ssid[] = "MODAL CUK !!";
-char pass[] = "kepoooooo";
+char auth[] = ""; //Token Blynk
+char ssid[] = ""; //Wi-fi name
+char pass[] = ""; //Wi-fi password
 
 #define PULSE_PIN D2 //gpio4
 #define FLOW_CALIBRATION 7 
